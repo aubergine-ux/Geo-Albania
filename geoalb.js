@@ -12,7 +12,7 @@ const LOCATIONS = [
   [40.4667, 19.4833, 90,  0, "Vlorë City Center"],
   [40.4121393, 19.4810308, 180, 0, "Ruga Sali Vranishti, Vlorë"],
   [40.4700, 19.4900, 180, 0, "Vlorë Promenade"],
-  [40.4238017, 19.4898321, 180, 0, "Beach 1, Vlorë"],
+  [40.4238017, 19.4898321, 270, 0, "Beach 1, Vlorë"],
   [40.4419097, 19.4952375, 180, 0, "Beach 2, Vlorë"],
   [40.4459706, 19.4945242, 180, 0, "Beach 3, Vlorë"],
 
@@ -31,7 +31,7 @@ const LOCATIONS = [
   // Berat
   [90, 0, "Ruga Mihal Komnena, Berat"],
   [40.7058, 19.9522, 90,  0, "Berat Old Town"],
-  [40.7016406, 19.9513116, 90, 0, "View of Berat"],
+  [40.7016406, 19.9513116, 180, 0, "View of Berat"],
   [40.7090, 19.9560, 180, 0, "Mangalem Quarter, Berat"],
   [40.7078694, 19.9473139, 90, 0, "Berat Castle"],
 
@@ -43,7 +43,7 @@ const LOCATIONS = [
   [41.1125, 20.0822, 90,  0, "Elbasan city Center"],
 
   // Fier
-  [40.7608973, 19.3724797, 90, 0, "Seman Beach"],
+  [40.7608973, 19.3724797, 270, 0, "Seman Beach"],
   [40.7239, 19.5567, 90,  0, "Fier City Center"],
   [40.9901418 ,19.4911381, 90, 0, "Divjaka National Park"],
   [40.950489, 19.4796791, 90, 0, "Divjaka National Park 2"],
