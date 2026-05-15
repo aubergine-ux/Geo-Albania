@@ -9,8 +9,12 @@ const LOCATIONS = [
   [41.3270, 19.4370, 45,  0, "Durrës beach promenade"],
 
   // Vlorë
-  [40.4667, 19.4833, 90,  0, "Vlorë city centre"],
-  [40.4700, 19.4900, 180, 0, "Vlorë promenade"],
+  [40.4667, 19.4833, 90,  0, "Vlorë City Center"],
+  [40.4121393, 19.4810308, 90, 0, "Ruga Sali Vranishti, Vlorë"],
+  [40.4700, 19.4900, 180, 0, "Vlorë Promenade"],
+  [40.4238017, 19.4898321, 90, 0, "Beach 1, Vlorë"],
+  [40.4419097, 19.4952375, 90, 0, "Beach 2, Vlorë"],
+  [40.4459706, 19.4945242, 90, 0, "Beach 3, Vlorë"],
 
   // Shkodër
   [42.0683, 19.5126, 90,  0, "Shkodër city centre"],
@@ -25,18 +29,26 @@ const LOCATIONS = [
   [39.8780, 20.0090, 180, 0, "Sarandë city centre"],
 
   // Berat
-  [40.7058, 19.9522, 90,  0, "Berat old town"],
-  [40.7090, 19.9560, 180, 0, "Mangalem quarter, Berat"],
+  [90, 0, "Ruga Mihal Komnena, Berat"],
+  [40.7058, 19.9522, 90,  0, "Berat Old Town"],
+  [40.7016406, 19.9513116, 90, 0, "View of Berat"],
+  [40.7090, 19.9560, 180, 0, "Mangalem Quarter, Berat"],
+  [40.7078694, 19.9473139, 90, 0, "Berat Castle"],
 
   // Korçë
-  [40.6186, 20.7808, 90,  0, "Korçë city centre"],
-  [40.6220, 20.7840, 180, 0, "Korçë old bazaar"],
+  [40.6186, 20.7808, 90,  0, "Korçë City Center"],
+  [40.6220, 20.7840, 180, 0, "Korçë Old Bazaar"],
 
   // Elbasan
-  [41.1125, 20.0822, 90,  0, "Elbasan city centre"],
+  [41.1125, 20.0822, 90,  0, "Elbasan city Center"],
 
   // Fier
-  [40.7239, 19.5567, 90,  0, "Fier city centre"],
+  [40.7608973, 19.3724797, 90, 0, "Seman Beach"],
+  [40.7239, 19.5567, 90,  0, "Fier City Center"],
+  [40.9901418 ,19.4911381, 90, 0, "Divjaka National Park"],
+  [40.950489, 19.4796791, 90, 0, "Divjaka National Park 2"],
+  [40.7208668, 19.4717417, 90, 0, "Apollonia Archaeological Park"],
+  [40.7220039, 19.472723, 90, 0, "Apollonia Archaeological Park 2"],
 
   // Lezhë
   [41.7836, 19.6436, 90,  0, "Lezhë city centre"],
