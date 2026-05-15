@@ -19,4 +19,4 @@ This is a personal project built to explore Albania through Street View.
 
 ## Misc.
 Used Google Embed Api for Streetview.
-- [Google Maps Embed API](https://developers.google.com/maps/documentation/embed/get-started) — Street View embeds
+- [Google Maps Embed API](https://developers.google.com/maps/documentation/embed/get-started)
