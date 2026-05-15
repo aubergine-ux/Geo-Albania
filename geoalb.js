@@ -10,11 +10,11 @@ const LOCATIONS = [
 
   // Vlorë
   [40.4667, 19.4833, 90,  0, "Vlorë City Center"],
-  [40.4121393, 19.4810308, 90, 0, "Ruga Sali Vranishti, Vlorë"],
+  [40.4121393, 19.4810308, 180, 0, "Ruga Sali Vranishti, Vlorë"],
   [40.4700, 19.4900, 180, 0, "Vlorë Promenade"],
-  [40.4238017, 19.4898321, 90, 0, "Beach 1, Vlorë"],
-  [40.4419097, 19.4952375, 90, 0, "Beach 2, Vlorë"],
-  [40.4459706, 19.4945242, 90, 0, "Beach 3, Vlorë"],
+  [40.4238017, 19.4898321, 180, 0, "Beach 1, Vlorë"],
+  [40.4419097, 19.4952375, 180, 0, "Beach 2, Vlorë"],
+  [40.4459706, 19.4945242, 180, 0, "Beach 3, Vlorë"],
 
   // Shkodër
   [42.0683, 19.5126, 90,  0, "Shkodër city centre"],
@@ -47,11 +47,11 @@ const LOCATIONS = [
   [40.7239, 19.5567, 90,  0, "Fier City Center"],
   [40.9901418 ,19.4911381, 90, 0, "Divjaka National Park"],
   [40.950489, 19.4796791, 90, 0, "Divjaka National Park 2"],
-  [40.7208668, 19.4717417, 90, 0, "Apollonia Archaeological Park"],
+  [40.7208668, 19.4717417, 180, 0, "Apollonia Archaeological Park"],
   [40.7220039, 19.472723, 90, 0, "Apollonia Archaeological Park 2"],
 
   // Lezhë
-  [41.7836, 19.6436, 90,  0, "Lezhë city centre"],
+  [41.7836, 19.6436, 270,  0, "Lezhë city centre"],
 ];
 
   const API_KEY = 'AIzaSyBWmvS7XqqbcM-txHmGLbFwe0T7k1iB1U8';
