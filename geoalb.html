@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Geo-Albania</title>
+    <meta name="description" content="Geo-Albania - Explore the Beauty of Albania.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="wrapper">
+        <div class="top-row">
+            <div class="container">
+                <h1>Geo-Albania</h1>
+                
+            </div>
+
+            <div class="container2">
+                <button class="btn" onclick="wander()">Explore Albania</button>
+                <span class="location-name" id="locationName"></span>
+            </div>
+        </div>
+
+        
+        <div class="map-wrap">
+            <div class="placeholder" id="placeholder">Click the button to start wandering</div>
+            <iframe id="map-frame" src="" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </div>
+    
+    <script src="geoalb.js"></script>
+</body>
+</html>

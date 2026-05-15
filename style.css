@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('Fonts/PlusJakartaSans-VariableFont_wght.ttf') format('truetype');
+  font-weight: 400;
+}
+
+body {
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   font-size: 15px;
+   background: linear-gradient(135deg, #020101, rgb(88, 2, 2));
+   color: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   height: 100vh;
+   margin: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+    margin-top: 15px;
+}
+
+.container2 {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 80px;
+    width: 350px;
+    margin-top: 15px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 15px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.top-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.map-wrap {
+  position: relative;
+  flex: auto;
+  height: calc(100vh - 160px);
+  height: 500px;
+  background: #666363;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.placeholder {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #bbb;
+  font-size: 0.85rem;
+  z-index: 10;
+  background: #615252;
+  transition: opacity 0.3s;
+}
+
+.placeholder.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  min-height: calc(100vh - 160px);
+  border: none;
+  display: block;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+iframe.loaded {
+  opacity: 1;
+}
+
+
+.btn {
+    background-color: #ff4141;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 5px;
+    font-size: 25px;
+}
+
+.btn:hover {
+    background-color: #5e0404;
+}
