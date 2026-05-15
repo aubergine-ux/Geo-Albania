@@ -97,6 +97,31 @@ iframe.loaded {
   opacity: 1;
 }
 
+.location-bar {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1rem;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.location-bar a {
+    color: #ff9999;
+    text-decoration: none;
+}
+
+.location-bar a:hover {
+    color: #ff4141;
+}
+
+.hidden {
+    display: none;
+}
 
 .btn {
     background-color: #ff4141;
