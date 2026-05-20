@@ -6,12 +6,12 @@ A browser-based Street View explorer that drops you into a random location acros
 
 Click **Explore Albania** and get teleported to a Street View location somewhere in Albania. Every click picks a new spot at random.
 
-Locations include:
+50+ Locations Including:
 
 - **Tirana**
-- **Coastal cities**
-- **Historic towns**
-- **Roads & landscapes**
+- **Coastal Cities**
+- **Historic Towns**
+- **Scenic Roads & Landscapes**
 
 ## Notes
 

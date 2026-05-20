@@ -12,7 +12,7 @@ body {
    display: flex;
    justify-content: center;
    align-items: flex-start;
-   height: 100vh;
+   min-height: 100vh;
    margin: 0;
 }
 
@@ -22,7 +22,8 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
-    width: 350px;
+    flex: 1;
+    width: auto;
     margin-top: 15px;
 }
 
@@ -36,7 +37,8 @@ body {
     text-align: center;
     align-items: center;
     height: 80px;
-    width: 350px;
+    flex: 1;
+    width: auto;
     margin-top: 15px;
 }
 
@@ -46,19 +48,26 @@ body {
   gap: 1rem;
   padding: 15px;
   max-width: 900px;
+  width: 100%;
   margin: 0 auto;
 }
 
 .top-row {
   display: flex;
   gap: 1rem;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+  .top-row { flex-direction: column; }
+  .container2 { height: auto; padding: 12px 20px; }
 }
 
 .map-wrap {
   position: relative;
   flex: auto;
   height: calc(100vh - 160px);
-  height: 500px;
+  height: clamp(300px, 55vh, 650px);
   background: #666363;
   border: 1px solid #e5e5e5;
   border-radius: 4px;

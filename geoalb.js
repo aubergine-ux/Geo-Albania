@@ -7,6 +7,7 @@ const LOCATIONS = [
   // Durrës
   [41.3233, 19.4414, 90,  0, "Durrës city centre"],
   [41.3270, 19.4370, 45,  0, "Durrës beach promenade"],
+  [41.3083638, 19.4462801, 45, 0, "Durrës Port"],
 
   // Vlorë
   [40.4667, 19.4833, 90,  0, "Vlorë City Center"],
@@ -18,7 +19,9 @@ const LOCATIONS = [
 
   // Shkodër
   [42.0683, 19.5126, 90,  0, "Shkodër city centre"],
+  [42.0472997, 19.5088055, 90, 0, "Shkodër Backroads"]
   [42.0650, 19.5180, 180, 0, "Rruga Kolë Idromeno, Shkodër"],
+  [42.0544036, 19.4829602, 45, 0, "SH24, Shkodër"],
 
   // Gjirokastër
   [40.0758, 20.1389, 90,  0, "Gjirokastër old town"],
@@ -27,6 +30,8 @@ const LOCATIONS = [
   // Sarandë
   [39.8753, 20.0053, 90,  0, "Sarandë promenade"],
   [39.8780, 20.0090, 180, 0, "Sarandë city centre"],
+  [39.8689375, 19.9996741, 45, 0, "Hotel Piccolino, Sarandë"],
+  [39.8555891, 20.0209058, 90, 0, "Flamingo Beach, Sarandë"],
 
   // Berat
   [90, 0, "Ruga Mihal Komnena, Berat"],
@@ -36,11 +41,16 @@ const LOCATIONS = [
   [40.7078694, 19.9473139, 90, 0, "Berat Castle"],
 
   // Korçë
+  [40.6257995, 20.7845479, 90, 0, "Rinia Park 1, Korçë"],
+  [40.6297133, 20.7883103, 90, 0, "Rinia Park 2, Korçë"],
   [40.6186, 20.7808, 90,  0, "Korçë City Center"],
   [40.6220, 20.7840, 180, 0, "Korçë Old Bazaar"],
+  [40.6142454, 20.7797787, 45, 0, "Bulevardi Fan Noli, Korçë"],
 
   // Elbasan
-  [41.1125, 20.0822, 90,  0, "Elbasan city Center"],
+  [41.0979504 ,20.0820469, 90, 0, "Ura e Skumbinit, Elbasan"],
+  [41.1125, 20.0822, 90,  0, "Elbasan City Center 1"],
+  [41.111386, 20.0821184, 90, 0, "Elbasan City Center 2"],
 
   // Fier
   [40.7608973, 19.3724797, 270, 0, "Seman Beach"],
@@ -51,7 +61,8 @@ const LOCATIONS = [
   [40.7220039, 19.472723, 90, 0, "Apollonia Archaeological Park 2"],
 
   // Lezhë
-  [41.7836, 19.6436, 270,  0, "Lezhë city centre"],
+  [41.7805974, 19.644825, 270,  0, "Lezhë city centre"],
+  [41.7745532, 19.6439775, 90, 0, "Ura e Cenit, Lezhë"],
 ];
 
   const API_KEY = 'AIzaSyBWmvS7XqqbcM-txHmGLbFwe0T7k1iB1U8';
@@ -73,7 +84,7 @@ const LOCATIONS = [
 
     nameEl.textContent = label;
     btn.disabled = true;
-    btn.textContent = 'Wandering...';
+    btn.textContent = 'Exploring...';
     frame.classList.remove('loaded');
     ph.classList.remove('hidden');
 
